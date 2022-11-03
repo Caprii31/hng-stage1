@@ -8,7 +8,7 @@ function Footer() {
     
     <footer className="footer">
         <img src={zuriLogo} alt="" id="zuri__logo" />
-        <h3>hng internship 9 frontend task</h3>
+        <h3>Hng internship 9 frontend task</h3>
         <img src={logoII} alt="" />
         <img src={dot} alt="" className="dot" />
     </footer>

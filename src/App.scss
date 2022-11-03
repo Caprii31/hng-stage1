@@ -7,7 +7,6 @@
 }
 
 .App{
-  text-transform: capitalize;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -59,6 +58,8 @@
 .main{
   margin-bottom: 64px;
   width: 100%;
+  text-transform: capitalize;
+
 
   & > a{
     text-align: center;
@@ -109,4 +110,73 @@ height: 70vh;
  justify-content:center;
  gap: 30px;
  
+ label{
+  color: #344054;
+  font-size: .75rem;
+ }
+
+ input{
+  padding: 15px 10px;
+  border-radius: 5px;
+  border: 1px solid #D0D5DD;
+  outline: none;
+}
+
+ .contact__header{
+   h1{
+    text-transform: uppercase;
+    color: #101828;
+    margin-bottom: 10px;
+
+   }
+   
+   .contact__text {
+    color : #475467;
+   }
+ }
+
+.form__name{
+
+  display: flex;
+  gap: 20px;
+  text-transform: uppercase;
+
+  & > *{
+     display: flex;
+     flex-direction: column;
+     font-weight: 500;
+     gap: 5px;
+  }
+
+  .input__name{
+    height: 30px;
+    width: 300px;
+  }
+}
+  .form__email{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-transform: uppercase;
+    
+    input {
+      height:30px;
+      width: 100%;
+    }
+  }
+  
+  .form__message{
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    textarea{
+      height: 100px;
+      padding:10px;
+      outline:none;
+      border: 1px solid #D0D5DD;
+      resize: none;
+    }
+  }
 }

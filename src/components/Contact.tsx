@@ -17,21 +17,22 @@ function Contact() {
                 <div className="second__name">
                     <label htmlFor="">second name</label>
                     <input type="text" className="input__name" placeholder="Enter Your Second Name" />
-                </div>
-                <div className="form__email">
+                </div> 
+            </div>
+            <div className="form__email">
                     <label htmlFor="">email</label>
                     <input type="email" className="email" placeholder="Yourname@email.com"/>
-                </div>
-                <div className="form__message">
+            </div>
+            
+            <div className="form__message">
                     <label htmlFor="">message</label>
-                    <input type="textarea" className="textarea" placeholder="Send me and i'll reply as soon as possible" />
-                </div>
-                <div className="form__radio">
+                    <textarea placeholder="Send me and i'll reply as soon as possible..."  />
+            </div>
+            <div className="form__radio">
                     <input type="radio" className="radio" />
                     <label htmlFor="">you agree to providing your data to Ahmed who may contact you </label>
-                </div>
-                <button className="form__btn">send message</button>
             </div>
+            <button className="form__btn">send message</button>
     </form>
     </>
   )
