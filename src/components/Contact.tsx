@@ -30,7 +30,7 @@ function Contact() {
             </div>
             <div className="form__radio">
                     <input type="radio" className="radio" />
-                    <label htmlFor="">you agree to providing your data to Ahmed who may contact you </label>
+                    <label htmlFor="">You agree to providing your data to Ahmed who may contact you. </label>
             </div>
             <button className="form__btn">send message</button>
     </form>
