@@ -22,7 +22,7 @@ function Home() {
         <a href="https://books.zuri.team/python-for-beginners?ref_id=Caprii" id="book__python" target="_blank">python books</a>
         <a href="https://background.zuri.team" id="pitch" target="_blank">background check for coders</a>
         <a href="https://books.zuri.team/design-rules" id="book__design" target="_blank">design books</a>
-        <Link to='/contact'>contact me</Link>
+        <Link to='/contact' id='contact'>contact me</Link>
         <div className="icon__links">
           <a href="/" className="slack__icon"><img src={slack} alt="" /></a>
           <a href="https://github.com/Caprii31?tab=repositories" className="github__icon"><img src={github} alt="" /></a>

@@ -153,13 +153,13 @@ height: 70vh;
     width: 300px;
   }
 }
-  .form__email{
+ .form__email{
     display: flex;
     flex-direction: column;
     gap: 5px;
     text-transform: uppercase;
     
-    input {
+    #email {
       height:30px;
       width: 100%;
     }
@@ -171,7 +171,7 @@ height: 70vh;
     flex-direction: column;
     gap: 5px;
 
-    textarea{
+  #message{
       height: 100px;
       padding:10px;
       outline:none;
@@ -186,7 +186,7 @@ height: 70vh;
     gap: 5px;
   }
 
-  .form__btn{
+  #btn__submit{
     padding:10px 0;
     width: 100%;
     background-color: #1570EF;
