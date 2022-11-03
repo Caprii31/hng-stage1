@@ -9,6 +9,8 @@
 .App{
   text-transform: capitalize;
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
   font-family: 'Inter', sans-serif;;
   padding: 64px 112px;
@@ -53,8 +55,10 @@
   }
 }
 
+
 .main{
   margin-bottom: 64px;
+  width: 100%;
 
   & > a{
     text-align: center;
@@ -80,6 +84,7 @@
 }
 
 .footer{
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -94,4 +99,14 @@
     position: absolute;
     left: 163px;
   }
+
+}
+
+.contact{
+height: 70vh;
+ display: flex;
+ flex-direction: column;
+ justify-content:center;
+ gap: 30px;
+ 
 }

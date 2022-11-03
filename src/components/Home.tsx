@@ -2,11 +2,9 @@ import React from 'react'
 import profileImg from '../images/profile__img.png'
 import github from '../images/Icon.png'
 import slack from '../images/icons8-slack-new-48.png'
-import zuriLogo from '../images/Vector.png'
-import logoII from '../images/I4G.png'
 import avatarShare from '../images/_Avatar share button.png'
-import dot from '../images/dot.png'
 import { Link } from 'react-router-dom'
+import Footer from './Footer';
 
 
 function Home() {
@@ -30,12 +28,6 @@ function Home() {
           <a href="https://github.com/Caprii31?tab=repositories" className="github__icon"><img src={github} alt="" /></a>
         </div>
       </main>
-      <footer className="footer">
-        <img src={zuriLogo} alt="" id="zuri__logo" />
-        <h3>hng internship 9 frontend task</h3>
-        <img src={logoII} alt="" />
-        <img src={dot} alt="" className="dot" />
-      </footer>
     </>
   )
 }
