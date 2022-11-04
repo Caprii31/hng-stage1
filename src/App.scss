@@ -104,11 +104,11 @@
 }
 
 .contact{
-height: 70vh;
- display: flex;
- flex-direction: column;
- justify-content:center;
- gap: 30px;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  gap: 30px;
  
  label{
   color: #344054;
@@ -150,7 +150,7 @@ height: 70vh;
 
   .input__name{
     height: 30px;
-    width: 300px;
+    width: 100%;
   }
 }
  .form__email{
@@ -197,5 +197,31 @@ height: 70vh;
     cursor: pointer;
     font-size: 1rem;
     border-radius: 5px;
+  }
+}
+
+@media (max-width: 768px){
+  .App{
+    padding: 64px 20px;
+  }
+  .contact{
+    .contact__header{
+      h1{
+        font-size: 1.2rem;
+      }
+      p{
+        font-size: .8rem;
+      }
+    }
+  }
+
+  .footer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    .dot{
+     display: none;
+    }
   }
 }
