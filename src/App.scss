@@ -213,6 +213,11 @@
         font-size: .8rem;
       }
     }
+
+    .form__name{
+      display: flex;
+      flex-direction: column;
+    }
   }
 
   .footer{
