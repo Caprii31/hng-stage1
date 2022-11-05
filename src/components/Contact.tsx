@@ -29,7 +29,7 @@ function Contact() {
                     <textarea placeholder="Send me and i'll reply as soon as possible..." id="message" />
             </div>
             <div className="form__radio">
-                    <input type="radio" className="radio" />
+                    <input type="checkbox" className="radio" />
                     <label htmlFor="">You agree to providing your data to Ahmed Kamal who may contact you. </label>
             </div>
             <button className="form__btn" id="btn__submit">send message</button>
