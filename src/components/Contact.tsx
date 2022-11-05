@@ -16,7 +16,7 @@ function Contact() {
                 </div>
                 <div className="second__name">
                     <label htmlFor="">second name</label>
-                    <input type="text" className="input__name" placeholder="Enter Your Second Name" id="second_name" />
+                    <input type="text" className="input__name" placeholder="Enter Your Second Name" id="last_name" />
                 </div> 
             </div>
             <div className="form__email">
